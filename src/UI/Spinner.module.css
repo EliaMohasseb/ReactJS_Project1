@@ -1,0 +1,38 @@
+.loading {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+  }
+.spinner {
+    position: absolute;
+  top: 50%;
+  left: 46%;
+
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  
+  }
+  .spinner:after {
+    content: ' ';
+    display: block;
+    width: 96px;
+    height: 96px;
+	text-align: center;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #19527c;
+    border-color: #19527c transparent #19527c transparent;
+    animation: spinner 1.2s linear infinite;
+  }
+  @keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

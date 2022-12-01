@@ -1,0 +1,30 @@
+.h1{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: aliceblue;
+
+  }
+.h2{
+    transform: translateY(-1rem);
+    margin-left: 2rem;
+    font-size: 10px;
+    text-align: center;
+    font-weight:lighter
+  }
+.h3{
+    font-size: 13px;
+    transform: translateY(-1rem);
+    text-align: left;
+    margin-left: 3rem;
+    margin-right:3rem;
+    font-weight:lighter
+    
+  }
+  div{
+    position: -webkit-sticky;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+
+  }
